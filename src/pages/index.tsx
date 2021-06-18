@@ -5,8 +5,9 @@ import styles from '../../styles/Home.module.css'
 type Props = {
   title: string
 }
+const foo = 'bla'
 
-export default function Home({ title = "React"}: Props) {
+export default function Home({ title = 'React' }: Props) {
   return (
     <div className={styles.container}>
       <Head>
@@ -16,9 +17,7 @@ export default function Home({ title = "React"}: Props) {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          {title}
-        </h1>
+        <h1 className={styles.title}>{title}</h1>
 
         <p className={styles.description}>
           Get started by editing{' '}
