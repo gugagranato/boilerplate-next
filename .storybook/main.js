@@ -3,5 +3,5 @@ module.exports = {
     "../src/components/**/*.stories.mdx",
     "../src/components/**/*.stories.@(js|jsx|ts|tsx)"
   ],
-  addons: ['@storybook/addon-essentials', 'storybook-addon-next-router', '@storybook/addon-knobs'],
+  addons: ['@storybook/addon-essentials', 'storybook-addon-next-router'],
 }

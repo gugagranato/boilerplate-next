@@ -1,5 +1,4 @@
 import * as S from './styles'
-
 const Main = ({
   title = 'React Avançado',
   description = 'TypeScript, React, NextJS e Styled Components'
